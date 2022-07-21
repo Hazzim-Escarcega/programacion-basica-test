@@ -13,8 +13,8 @@ public final class ClassHija extends AbstractPadre {
     protected void metodoPadreDos() {
         super.metodoPadreDos();
     }
-
-    public ClassHija(String atributoUno, String atributoDos) {
+        //Para prevenir la instanciacion fuera de este namespace le podemos agregar protected al constructor.
+        public ClassHija(String atributoUno, String atributoDos) {
         this.atributoUno = atributoUno;
         this.atributoDos = atributoDos;
     }
